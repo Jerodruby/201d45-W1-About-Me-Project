@@ -2,17 +2,16 @@
 
 }
 
-
 h1 {
-  font-size: 100%; 
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgb(rgb(15, 1, 1))
-  
-}
+  font-size: 50px; 
+  font-style: fantasy;  
+  color: #c5a;
+  }  
 
 h2 {
-  font-family: fantasy
-  color: red;
+  font-size: 20px;
+  color: blue;
 }
+
 
  
