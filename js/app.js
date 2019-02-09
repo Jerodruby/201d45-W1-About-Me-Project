@@ -115,8 +115,25 @@ var languages = ['spanish', 'mandarin'];
 var attempts = 5;
 
 for(var i = 0; i < languages.length; i++){
-  // console.log(colors[i])
 }
+for(var i = 0; i < attempts; i++){
+  if(languages.includes(speak))
+    alert(' You are right! Spanish and Mandarin are the languages I speak');
+    console.log('User guessed the correct, result:' + languages);
+    break;
+}   
+  {
+  if(!languages.includes(speak));{
+    prompt(' Wrong, try again.');
+    console.log('User guessed wrong, result:' + languages);
+
+  if(attempts > 5)
+    alert('Other than English, the languages I speak are Spanish and Mandarin');
+  
+  // console.log(colors[i])
+  }
+  {
+
 /* Code below is my attempt at questions 6 and 7. However, it breaks when I run it
 so I'm submitting assignment with working code but broken code below commented out. 
 
@@ -138,11 +155,6 @@ for(var i = 0; i < attempts; i++){
     console.log('Let them know what\'s going on');  
   }
 */
+  } 
 
-  
-
-  
-
-  
-
-
+}
