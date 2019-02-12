@@ -142,18 +142,17 @@ for(var i = 0; i < attempts; i++){
   var languages = ['spanish', 'mandarin'];
   var attempts = 5;
 
-  for(var i = 0; i < attempts; i++)
-  {if(languages.includes(speak))
+  for(var i = 0; i < attempts; i++){
+  if(languages.includes(speak)){
     alert(' You are right! Spanish and Mandarin are the languages I speak');
     console.log('User guessed the correct, result:' + languages);
     break;
-  
   }
-  if(!languages.includes(speak)){
+if(!languages.includes(speak)){
     prompt(' Wrong, try again.');
     console.log('User guessed wrong, result:' + languages);
   
-  if(attempts > 5){
+if(i === 5){
     alert('Other than English, the languages I speak are Spanish and Mandarin');
     console.log('Provide result:' + languages);
   }
@@ -163,6 +162,6 @@ for(var i = 0; i < attempts; i++){
   alert('Congratulations' + name + 'You got X correct.');
   console.log('Let them know what\'s going on'); 
   
+    }
   }
-
 }
