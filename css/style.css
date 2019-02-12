@@ -5,7 +5,6 @@ body{
     margin: 50px;
   }
 
-
 h1 {
   font-size: 50px; 
   font-style: fantasy;  
@@ -18,14 +17,15 @@ h2 {
 }
 
 h3 {
+  margin: 25px 50px 75px 20px;
   font-size: 20px;
   color: rgb(0, 0, 8)
+  
 }
-
 h4 {
   font-size: 20px;
-  color: rgb(12, 248, 12);
+  color: rgb(4, 168, 4);
+  margin-top: -70px
 }
 
 
- 
