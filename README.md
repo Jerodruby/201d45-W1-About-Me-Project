@@ -18,3 +18,4 @@ Focus Group Participant
 2. As a focus group participant, I want to continually choose products that interest me the most, so that the marketing research team finds my data consistent and valuable. 
 3. As a focus group participant, I want to be honest in my selections, so that the data is as accurate and useful as possible. 
 
+
